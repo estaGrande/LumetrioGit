@@ -22,7 +22,7 @@ git push -u origin main
 
 Para agregar:
 
-1)git add X ---- siendo X el nombre del archivo 
+1)git add X ---- siendo X el nombre del archivo (al hacer "git add ." se agrega todo) 
 2)git commit -m 'Creacion de X'---- Para que se sepa el porque del cambio
 	2.1)git commit --amend -m "nuevo mensaje"----Si es que te equivocas en el mensaje antes de subirlo
 3)git push---- para que se agregue
@@ -60,6 +60,11 @@ Conflicto:
 Sucede cuando se quiere unificar dos lineas de codigo en la misma linea
 Al no saber con cual quedarse salta una comparacion los dos codigos
 Se tiene que elegir uno, por lo que se tiene que borrar a mano
+Y al elegir uno:
+
+1)git add .
+2)git commit -m 'J' --- siendo J el comentario
+3)git push
 
 ************************************************
 
