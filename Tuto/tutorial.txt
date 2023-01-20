@@ -55,6 +55,12 @@ Tenes que ir a la rama principal
 2)git merge X ---- siendo X la rama secundaria
 3)git push ---- para que se suba
 
+Conflicto:
+
+Sucede cuando se quiere unificar dos lineas de codigo en la misma linea
+Al no saber con cual quedarse salta una comparacion los dos codigos
+Se tiene que elegir uno, por lo que se tiene que borrar a mano
+
 ************************************************
 
 Parar lo actual para ver otra cosa
